@@ -5,6 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>left_frame</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        .hover-content{
+            display: none;
+        }
+        .hover-container:hover .hover-content{
+            text-decoration:underline;
+            display: block;
+        }
+    </style>
 </head>
 <body margin="0" overflow="hidden" padding="0" class="body_left_frame">
     <ul class="dept_list">
@@ -13,6 +22,21 @@
         <li><a target="frame_3" href="https://abes.ac.in/electrical-and-electronics-engineering.php">EE</a></li>
         <li><a target="frame_3" href="https://abes.ac.in/mechanical-engineering.php">ME</a></li>
         <li><a target="frame_3" href="https://abes.ac.in/CS-department.php">CS</a></li>
+        <li>
+            <div class="hover-container" style="color:brown;">Practicals
+                <div class="hover-content" style="background:yellow;">
+                    <a href="practical6.html" target="frame_3">Practical-6</a>
+                    <br>
+                    <a href="practical7a.html" target="frame_3">Practical-7a</a>
+                    <br>
+                    <a href="p7b.html" target="frame_3">Practical-7b</a>
+                    <ul type="square">
+                        
+                    </ul>
+                </div>
+            </div>
+
+        </li>
     </ul>
 </body>
 </html>
