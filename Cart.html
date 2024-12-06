@@ -3,10 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cart</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+    <style>
+        .blink{
+            animation: blink 1.5s linear infinite;
+            color:blueviolet;
+            font-size: 1.3em;
+        }
+        @keyframes blink{
+        50% {
+            opacity: 0% ;
+        }
+    }
+    </style>
 </head>
-<body>
+<body style="background-image:url(https://img.jagranjosh.com/images/2024/January/1612024/Campus%20View2.dsd.jpg) ;background-size:cover;">
+    <div>
+        <table align="center" border="2" width="100%" cellspacing="0px" cellpadding="0" >
+            <tr>
+                <th>Book Name</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Amount</th>
+            </tr>
+            <tr>
+                <td align="Center">Engineering Physics</td>
+                <td align="Center">$30</td>
+                <td align="Center">1</td>
+                <td align="Center">$30</td>
+            </tr>
+            <tr>
+                <td align="Center">Cloud Computing</td>
+                <td align="Center">$35</td>
+                <td align="Center">2</td>
+                <td align="Center">$70</td>
+            </tr>
+            <tr>
+                <td align="Center" colspan="3"><b>ToTal</b></td>
+                <td align="Center" class="blink">$100</td>
+            </tr>
+        </table>
+    </div>
     
 </body>
 </html>
